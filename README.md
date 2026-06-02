@@ -50,6 +50,11 @@ Generate Insights
 Conclusion
 ```
 
+## Project Visualizations
+
+![Project Visualizations](images/project_visualizations.png)
+
+
 ## Features
 
 * Database creation using SQLite
