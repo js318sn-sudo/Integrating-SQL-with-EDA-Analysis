@@ -13,6 +13,15 @@ This project demonstrates the integration of SQL and Exploratory Data Analysis (
 * Analyze category-wise and city-wise sales
 * Integrate SQL with Python for data analysis
 
+# Topics Covered
+
+* SQL Database Creation
+* SELECT Queries
+* WHERE Clause
+* ORDER BY Clause
+* Data Retrieval with Pandas
+* Exploratory Data Analysis
+
 ## Tools and Technologies
 
 * Python
