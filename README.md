@@ -62,7 +62,6 @@ Conclusion
 
 ## Project Structure
 
-```text
 integrating-sql-with-eda-analysis/
 │
 ├── README.md
@@ -70,11 +69,7 @@ integrating-sql-with-eda-analysis/
 ├── dataset.csv
 ├── output.txt
 └── images/
-    ├── sql_workflow.png
-    ├── eda_process.png
-    ├── sql_python_integration.png
-    └── data_analysis_cycle.png
-```
+    └── project_visualizations.png
 
 ## Analysis Performed
 
