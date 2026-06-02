@@ -1,0 +1,86 @@
+# Output:
+=== COMPLETE DATASET ===
+   id product     category  amount        city
+0   1  Laptop  Electronics   50000   Hyderabad
+1   2  Mobile  Electronics   25000  Vijayawada
+2   3   Chair    Furniture    5000     Chennai
+3   4   Table    Furniture    8000   Hyderabad
+4   5  Laptop  Electronics   55000     Chennai
+5   6  Mobile  Electronics   27000  Vijayawada
+6   7   Chair    Furniture    4500   Hyderabad
+7   8   Table    Furniture    9000     Chennai
+
+=== ELECTRONICS PRODUCTS ===
+   id product     category  amount        city
+0   1  Laptop  Electronics   50000   Hyderabad
+1   2  Mobile  Electronics   25000  Vijayawada
+2   5  Laptop  Electronics   55000     Chennai
+3   6  Mobile  Electronics   27000  Vijayawada
+
+=== SORT BY SALES AMOUNT DESC ===
+   id product     category  amount        city
+0   5  Laptop  Electronics   55000     Chennai
+1   1  Laptop  Electronics   50000   Hyderabad
+2   6  Mobile  Electronics   27000  Vijayawada
+3   2  Mobile  Electronics   25000  Vijayawada
+4   8   Table    Furniture    9000     Chennai
+5   4   Table    Furniture    8000   Hyderabad
+6   3   Chair    Furniture    5000     Chennai
+7   7   Chair    Furniture    4500   Hyderabad
+
+=== DATA INFORMATION ===
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 8 entries, 0 to 7
+Data columns (total 5 columns):
+ #   Column    Non-Null Count  Dtype 
+---  ------    --------------  ----- 
+ 0   id        8 non-null      int64 
+ 1   product   8 non-null      object
+ 2   category  8 non-null      object
+ 3   amount    8 non-null      int64 
+ 4   city      8 non-null      object
+dtypes: int64(2), object(3)
+memory usage: 296.0+ bytes
+None
+
+=== SUMMARY STATISTICS ===
+            id        amount
+count  8.00000      8.000000
+mean   4.50000  22937.500000
+std    2.44949  20213.922889
+min    1.00000   4500.000000
+25%    2.75000   7250.000000
+50%    4.50000  17000.000000
+75%    6.25000  32750.000000
+max    8.00000  55000.000000
+
+=== TOTAL RECORDS ===
+8
+
+=== AVERAGE SALES ===
+22937.5
+
+=== HIGHEST SALE ===
+55000
+
+=== LOWEST SALE ===
+4500
+
+=== CATEGORY-WISE SALES ===
+category
+Electronics    157000
+Furniture       26500
+Name: amount, dtype: int64
+
+=== CATEGORY-WISE AVERAGE SALES ===
+category
+Electronics    39250.0
+Furniture       6625.0
+Name: amount, dtype: float64
+
+=== CITY-WISE SALES ===
+city
+Chennai       69000
+Hyderabad     62500
+Vijayawada    52000
+Name: amount, dtype: int64
