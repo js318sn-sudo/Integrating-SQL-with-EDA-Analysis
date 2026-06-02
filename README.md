@@ -52,7 +52,7 @@ Conclusion
 
 ## Project Visualizations
 
-![Project Visualizations](images/project_visualizations.png)
+![Project Visualizations](project_visualizations.png)
 
 
 ## Features
