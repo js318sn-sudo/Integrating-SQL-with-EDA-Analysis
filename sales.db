@@ -1,0 +1,9 @@
+ id product    category  amount       city
+  1  Laptop Electronics   50000  Hyderabad
+  2  Mobile Electronics   25000 Vijayawada
+  3   Chair   Furniture    5000    Chennai
+  4   Table   Furniture    8000  Hyderabad
+  5  Laptop Electronics   55000    Chennai
+  6  Mobile Electronics   27000 Vijayawada
+  7   Chair   Furniture    4500  Hyderabad
+  8   Table   Furniture    9000    Chennai
