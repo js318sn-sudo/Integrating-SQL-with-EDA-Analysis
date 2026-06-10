@@ -81,7 +81,6 @@ integrating-sql-with-eda-analysis/
 ├── README.md
 ├── sql_eda_integration.py
 ├── dataset.csv
-├── output.txt
 └── images/
     └── project_visualizations.png
 
